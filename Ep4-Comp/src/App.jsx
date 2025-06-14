@@ -1,11 +1,17 @@
 import './App.css'
+import Footer from "./componets/Footer"
+import Content from "./components/Content"
 
 function App(){
 
+  let user ="Mugunthan"
+
   return(
-    <>
-    <Header />
-    </>
+    <div className="app">
+    <Header user = {user}/>
+    <Content/>
+    <Footer user = "Mugunthan"/>
+    </div>
   )
 }
 
